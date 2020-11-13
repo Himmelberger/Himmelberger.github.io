@@ -1,0 +1,92 @@
+body {
+  background-color: #666666;
+  border: 0px solid red;
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #383737;
+  font-size: .67em;
+  font-weight: 700;
+  text-decoration: underline;
+  color: ivory;
+  text-transform: uppercase;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1.5px 0px 1.5px 0px;
+  margin: 1.5px 20% 0px 20%;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: 800;
+  padding-left: 1vw;
+}
+
+img {
+  border: 1px solid white;
+  padding: 0vw;
+  max-width: 100%;
+}
+
+.imageDiv {
+  background-color: #283535;
+  border: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  float: right;
+  padding: 1vh 0;
+  width: 60%;
+  position: relative;
+}
+
+.tributeInfo {
+  font-size: 1em;
+}
+
+.imageCaption {
+  top: 1vh;
+  font-size: .55em;
+  font-weight: 400;
+  color: ivory;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: right;
+  position: absolute;
+}
+
+p {
+  border: 1px solid black;
+  padding-top: 2vh;
+  margin: 1vw;
+  padding-right: 1vw;
+  text-indent: 17px;
+  text-align: justify;
+}
+
+p a {
+  color: ivory;
+  -webkit-text-decoration-style: wavy;
+          text-decoration-style: wavy;
+}
+
+.footer {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin-left: auto;
+  padding: .125em .125em .125em 0em;
+}
+/*# sourceMappingURL=styles.css.map */
